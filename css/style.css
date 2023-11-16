@@ -14,23 +14,23 @@ body {
 }
 
 .tecnologias {
-  background-color: #bc2c2c;
+  background-color: rgb(223 223 223);
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 15px;
-  box-shadow: 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.45)25px 25px 20px -10px;
 }
 
 .titulo {
   color: #ffffff;
 }
 
-.tecno {
-  transition: all 1.8s;
+.tecnoImg {
+  transition: all .5s;
 }
-
-.tecno :hover {
-  transform: scale(1.2);
+.tecnoImg:hover {
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 a {
@@ -1021,4 +1021,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+.DivForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DivForm img{
+  width: 50%;
+  margin-bottom: 2%;
 }
